@@ -1,3 +1,8 @@
 <svg class="background">
   <text id="demotext" x="50%" y="50%+15">Hello World!</text>
 </svg>
+
+<!-- Start screen -->
+  <svg id="svgStart" x="10">
+
+  </svg>
