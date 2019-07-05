@@ -1,8 +1,16 @@
-<svg class="background">
-  <text id="demotext" x="50%" y="50%+15">Hello World!</text>
+<svg viewport-fill="lightblue">
+
+    <defs>
+
+    </defs>
+
+    <!-- Start screen -->
+    <svg id="svgStart">
+        <image id="img" x="25" y="25" width="50" height="50" href="./resources/Picture/stat_steps_open_32px.png" pointer-events="visible"/>
+        <text id="demotext" x="50%" y="50%+15">Hello World!</text>
+    </svg>
+
+    <svg id="svgSelect" display="none">
+        <text id="selectingtxt" x="50%" y="50%+15">Select Workout</text>
+    </svg>
 </svg>
-
-<!-- Start screen -->
-  <svg id="svgStart" x="10">
-
-  </svg>
