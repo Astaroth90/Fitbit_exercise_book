@@ -15,4 +15,16 @@ export default class Exercise {
     get Name(){
         return this.name;
     }
+	
+	get Repeat() {
+		return this.repeat;
+	}
+	
+	get Weight() {
+		return this.weight;
+	}
+	
+	get Sets() {
+		return this.sets;
+	}
 }
