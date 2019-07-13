@@ -1,11 +1,35 @@
 import json
 
-testplan = {
-	"name": "Brust",
-	"ex1": { "name":"test1","sets":"5","repeat":"12","weight":"20" } ,
-	"ex2": { "name":"test2","sets":"5","repeat":"8","weight":"50" } ,
-	"ex3": { "name":"test3","sets":"5","repeat":"10","weight":"25" } ,
-}
+print("Start")
+testplan = {}
+testplan['name'] = []
+testplan['exercise'] = []
+testplan['name'].append('Brust')
+testplan['exercise'].append({
+	"name":"test1",
+	"sets":"5",
+	"repeat":"12"
+	,"weight":"20"
+})
+testplan['exercise'].append({
+	"name":"test2",
+	"sets":"5",
+	"repeat":"8",
+	"weight":"50" 
+})
+testplan['exercise'].append({
+	"name":"test3",
+	"sets":"5",
+	"repeat":"10",
+	"weight":"25" 
+}) 
+print("TestPlan")
+print(testplan)
 
-with open('plan.json','w') as outfile
-plan.dumps(testplan, outfile)
+plan = json.dumps(testplan)
+print(plan)
+with open('plan.txt', 'w') as outfile:
+	
+	json.dumps(testplan, outfile)
+
+print("End")
