@@ -1,0 +1,1 @@
+{"name": ["Brust"], "exercise": [{"repeat": "12", "name": "test1", "weight": "20", "sets": "5"}, {"repeat": "8", "name": "test2", "weight": "50", "sets": "5"}, {"repeat": "10", "name": "test3", "weight": "25", "sets": "5"}]}

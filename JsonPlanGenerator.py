@@ -1,4 +1,6 @@
 import json
+#import Tkinter
+from Tkinter import *
 
 print("Start")
 testplan = {}
@@ -28,8 +30,15 @@ print(testplan)
 
 plan = json.dumps(testplan)
 print(plan)
-with open('plan.txt', 'w') as outfile:
-	
-	json.dumps(testplan, outfile)
+file = open('plan.txt', 'w')	
+
+file.write(plan)
+
+file.close()
+
+fenster = Tk()
+fenster.title("Nur ein Fenster")
+fenster.mainloop()
+
 
 print("End")
