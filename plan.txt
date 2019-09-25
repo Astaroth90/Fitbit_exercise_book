@@ -1,1 +1,1 @@
-{"name": ["Brust"], "exercise": [{"repeat": "12", "name": "test1", "weight": "20", "sets": "5"}, {"repeat": "8", "name": "test2", "weight": "50", "sets": "5"}, {"repeat": "10", "name": "test3", "weight": "25", "sets": "5"}]}
+{"name": ["Brust"], "exercise": [{"name": "test1", "sets": "5", "repeat": "12", "weight": "20"}, {"name": "test2", "sets": "5", "repeat": "8", "weight": "50"}, {"name": "test3", "sets": "5", "repeat": "10", "weight": "25"}]}
